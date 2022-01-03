@@ -1,0 +1,118 @@
+{"intents":
+    [
+        {
+            "tag":"greetings",
+            "patterns":["good morning","good afternoon","good day","good evening","hey","hello","hello there","hi"],
+            "response":["Hello there!","Hey!","Hello","How are you?","What's up?"],
+            "addons":[""]
+        },
+        {
+            "tag":"goodbyes",
+            "patterns":["see you later","bye","good bye","night","good night"],
+            "response":["Bye!","See you later!","Have a good day!"],
+            "addons":[""]
+        },
+        {
+            "tag":"name",
+            "patterns":["whats your name","who are you","what should i call you"],
+            "response":["My name is Gerald!","You can call me Gerald!","I am Gerald, your virtual assistant!"],
+            "addons":[""]
+        },
+        {
+            "tag":"age",
+            "patterns":["how old are you","whats your age","whens your birthday","when were you born"],
+            "response":["I am currently 5 weeks old!","I was created on the 30th May 2021.","My birthday is 30/05/21"],
+            "addons":[""]
+        },
+        {
+            "tag":"how_are_you",
+            "patterns":["how are you","hows it going","whats up","whats going on"],
+            "response":["I am good thanks, what about you?","Not bad thanks, how about you?","I'm RAD!"],
+            "addons":[""]
+        },  
+        {
+            "tag":"abilities",
+            "patterns":["what can you do","whats your purpose"],
+            "response":["I can do lots of stuff, like ","I was made to do useful tasks, like ","I do many things like "],
+            "addons":["get news, play music, search the web, move and sort files, and much more!"]
+        },
+        {
+            "tag":"creator",
+            "patterns":["who made you","who is your inventor","how were you created"],
+            "response":["I was created by Tom Barnes","My creator is Tom Barnes"],
+            "addons":[", he is very cool!",", he is awesome!",", he is very clever!"]
+        },
+        {
+            "tag":"sort_folder",
+            "patterns":["can you sort out","folder is a mess"],
+            "response":["Of course!","Ok, I can sort that out for you!"],
+            "addons":["r.sort_folder()"]
+        },
+        {
+            "tag":"add_intent",
+            "patterns":["can you learn how to","add to your knowledge"],
+            "response":["Sure thing, I love learning! What would you like me to learn?"],
+            "addons":["r.add_intent()"]
+        },
+        {
+            "tag":"open_program",
+            "patterns":["open","run the program","run the app"],
+            "response":["r.open_program()"],
+            "addons":[""]
+        },
+        {
+            "tag":"close_program",
+            "patterns":["close","kill the program","stop running the program"],
+            "response":["r.close_program()"],
+            "addons":[""]
+        },
+        {
+            "tag":"programs_running",
+            "patterns":["what programs are running","is running"],
+            "response":["r.programs_running()"],
+            "addons":[""]
+        },
+        {
+            "tag":"get_news",
+            "patterns":["any news about","todays headlines","whats the news","anything in the news today"],
+            "response":["I'll see what I can find in the news...","Let me have a look..."],
+            "addons":["r.get_news()"]
+        },
+        {
+            "tag":"spotify",
+            "patterns":["play playlist","play on spotify","add to playlist","add to queue","play music"],
+            "response":["r.spotify()"],
+            "addons":[""]
+        },
+        {
+            "tag":"web_search",
+            "patterns":["look online for","search for","can you find out"],
+            "response":["I'll have a look online...","I am searching the web...","Hmmm, let me see..."],
+            "addons":["search_online()"]
+        },
+        {
+            "tag":"add_contacts",
+            "patterns":["add to my contacts","can you add a new contact","i met someone new"],
+            "response":["Cool! I'll add them to the contacts database"],
+            "addons":["r.add_contact()"]
+        },
+        {
+            "tag":"view_contacts",
+            "patterns":["am i friends with","who am i in touch with","look through my contacts","who are my contacts"],
+            "response":["I'll have a look in through your contacts...","Hmmm, let me see..."],
+            "addons":["r.view_contacts()"]
+        },
+        {
+            "tag":"remove_contact",
+            "patterns":["i never talk to anymore","remove from contacts","i am not friends"],
+            "response":["I am sorry to hear that. Shall I remove them from your contacts?"],
+            "addons":["r.remove_contact()"]
+        },
+        {
+            "tag":"activities",
+            "patterns":["i am bored","want to play something with me","i dont know what to do"],
+            "response":["r.play_game()","r.joke()","r.interesting_fact()"],
+            "addons":[""]
+        }
+    ]
+}
